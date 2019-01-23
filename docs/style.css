@@ -1,0 +1,11 @@
+html, body {
+  font-family: Arial;
+  text-align: center;
+
+}
+* {box-sizing: border-box;}
+.header {
+  background-color: #fecbcb;
+  border: 2px solid black;
+  border-radius: 50px;
+}
