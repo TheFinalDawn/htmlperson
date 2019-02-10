@@ -1,11 +1,52 @@
 html, body {
-  font-family: Arial;
+  font-family: 'Roboto';
   text-align: center;
-
+  background-image: url("bg.png");
+  background-attachment: fixed;
 }
 * {box-sizing: border-box;}
 .header {
   background-color: #fecbcb;
   border: 2px solid black;
   border-radius: 50px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.first) {
+  background-color: #111;
+}
+li a:hover.first {
+  background-color: #AA3333;
+}
+.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  z-index: 1;
+}
+.first {
+  background-color: #CC0000;
+}
+li {
+  float: left;
+  border-right: 1px solid white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
