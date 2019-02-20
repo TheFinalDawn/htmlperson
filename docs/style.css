@@ -6,7 +6,7 @@ html, body {
 }
 * {box-sizing: border-box;}
 .header {
-  background-color: #AA3333; /* fecbcb */
+  background-color: #fecbcb; /* fecbcb */
   border: 2px solid black;
   border-radius: 50px;
 }
